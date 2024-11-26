@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun appendNumberToInput(number: String) {
         currentInput += number // Yeni rakamı mevcut girişe ekle
-        binding.textViewSonuc.text = currentInput // Güncellenen sayıyı göster
+        binding.textViewSonuc.text = currentInput 
     }
 
 
